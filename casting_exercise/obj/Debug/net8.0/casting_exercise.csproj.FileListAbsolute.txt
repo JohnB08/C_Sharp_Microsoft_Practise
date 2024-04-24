@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\bin\Debug\net8.0\casting_exercise.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\bin\Debug\net8.0\casting_exercise.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\bin\Debug\net8.0\casting_exercise.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\bin\Debug\net8.0\casting_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\bin\Debug\net8.0\casting_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\refint\casting_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\casting_exercise.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_exercise\obj\Debug\net8.0\ref\casting_exercise.dll

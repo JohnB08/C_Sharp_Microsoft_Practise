@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "do-while_while_and_user_input_2/1.0.0": {
+        "runtime": {
+          "do-while_while_and_user_input_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "do-while_while_and_user_input_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\bin\Debug\net8.0\Logic_Challenge.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\bin\Debug\net8.0\Logic_Challenge.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\bin\Debug\net8.0\Logic_Challenge.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\bin\Debug\net8.0\Logic_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\bin\Debug\net8.0\Logic_Challenge.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\refint\Logic_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\Logic_Challenge.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Logic_Challenge\obj\Debug\net8.0\ref\Logic_Challenge.dll

@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\bin\Debug\net8.0\choosing-data-types.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\bin\Debug\net8.0\choosing-data-types.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\bin\Debug\net8.0\choosing-data-types.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\bin\Debug\net8.0\choosing-data-types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\bin\Debug\net8.0\choosing-data-types.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\refint\choosing-data-types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\choosing-data-types.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\choosing-data-types\obj\Debug\net8.0\ref\choosing-data-types.dll

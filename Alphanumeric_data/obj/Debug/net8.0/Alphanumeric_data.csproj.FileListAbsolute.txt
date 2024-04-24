@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\bin\Debug\net8.0\Alphanumeric_data.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\bin\Debug\net8.0\Alphanumeric_data.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\bin\Debug\net8.0\Alphanumeric_data.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\bin\Debug\net8.0\Alphanumeric_data.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\bin\Debug\net8.0\Alphanumeric_data.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\refint\Alphanumeric_data.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\Alphanumeric_data.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Alphanumeric_data\obj\Debug\net8.0\ref\Alphanumeric_data.dll

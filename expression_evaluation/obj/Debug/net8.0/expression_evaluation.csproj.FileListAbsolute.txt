@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\bin\Debug\net8.0\expression_evaluation.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\bin\Debug\net8.0\expression_evaluation.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\bin\Debug\net8.0\expression_evaluation.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\bin\Debug\net8.0\expression_evaluation.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\bin\Debug\net8.0\expression_evaluation.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\refint\expression_evaluation.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\expression_evaluation.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\expression_evaluation\obj\Debug\net8.0\ref\expression_evaluation.dll

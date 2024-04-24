@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\bin\Debug\net8.0\do-while_while_and_user_input_2.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\bin\Debug\net8.0\do-while_while_and_user_input_2.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\bin\Debug\net8.0\do-while_while_and_user_input_2.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\bin\Debug\net8.0\do-while_while_and_user_input_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\bin\Debug\net8.0\do-while_while_and_user_input_2.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\refint\do-while_while_and_user_input_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\do-while_while_and_user_input_2.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\do-while_while_and_user_input_2\obj\Debug\net8.0\ref\do-while_while_and_user_input_2.dll

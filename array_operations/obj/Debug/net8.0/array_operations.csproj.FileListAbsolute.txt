@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\bin\Debug\net8.0\array_operations.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\bin\Debug\net8.0\array_operations.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\bin\Debug\net8.0\array_operations.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\bin\Debug\net8.0\array_operations.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\bin\Debug\net8.0\array_operations.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\refint\array_operations.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\array_operations.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\array_operations\obj\Debug\net8.0\ref\array_operations.dll

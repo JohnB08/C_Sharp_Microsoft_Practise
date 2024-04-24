@@ -1,0 +1,14 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\bin\Debug\net8.0\casting_types.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\bin\Debug\net8.0\casting_types.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\bin\Debug\net8.0\casting_types.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\bin\Debug\net8.0\casting_types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\bin\Debug\net8.0\casting_types.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\refint\casting_types.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\casting_types.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\casting_types\obj\Debug\net8.0\ref\casting_types.dll
