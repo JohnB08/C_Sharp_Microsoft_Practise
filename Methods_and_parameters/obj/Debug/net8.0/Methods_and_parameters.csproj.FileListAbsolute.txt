@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\bin\Debug\net8.0\Methods_and_parameters.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\bin\Debug\net8.0\Methods_and_parameters.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\bin\Debug\net8.0\Methods_and_parameters.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\bin\Debug\net8.0\Methods_and_parameters.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\bin\Debug\net8.0\Methods_and_parameters.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\refint\Methods_and_parameters.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\Methods_and_parameters.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_and_parameters\obj\Debug\net8.0\ref\Methods_and_parameters.dll

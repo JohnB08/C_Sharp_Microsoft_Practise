@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\bin\Debug\net8.0\Methods_returning_values.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\bin\Debug\net8.0\Methods_returning_values.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\bin\Debug\net8.0\Methods_returning_values.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\bin\Debug\net8.0\Methods_returning_values.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\bin\Debug\net8.0\Methods_returning_values.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\refint\Methods_returning_values.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\Methods_returning_values.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_returning_values\obj\Debug\net8.0\ref\Methods_returning_values.dll

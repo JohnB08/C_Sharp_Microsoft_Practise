@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\bin\Debug\net8.0\method_exercise_2.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\bin\Debug\net8.0\method_exercise_2.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\bin\Debug\net8.0\method_exercise_2.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\bin\Debug\net8.0\method_exercise_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\bin\Debug\net8.0\method_exercise_2.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\refint\method_exercise_2.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\method_exercise_2.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\method_exercise_2\obj\Debug\net8.0\ref\method_exercise_2.dll

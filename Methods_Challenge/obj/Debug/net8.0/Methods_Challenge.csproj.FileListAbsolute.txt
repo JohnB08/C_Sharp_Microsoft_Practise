@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\bin\Debug\net8.0\Methods_Challenge.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\bin\Debug\net8.0\Methods_Challenge.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\bin\Debug\net8.0\Methods_Challenge.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\bin\Debug\net8.0\Methods_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\bin\Debug\net8.0\Methods_Challenge.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\refint\Methods_Challenge.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\Methods_Challenge.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_Challenge\obj\Debug\net8.0\ref\Methods_Challenge.dll

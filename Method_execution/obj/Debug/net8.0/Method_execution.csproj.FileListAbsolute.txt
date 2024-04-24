@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\bin\Debug\net8.0\Method_execution.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\bin\Debug\net8.0\Method_execution.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\bin\Debug\net8.0\Method_execution.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\bin\Debug\net8.0\Method_execution.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\bin\Debug\net8.0\Method_execution.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\refint\Method_execution.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\Method_execution.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Method_execution\obj\Debug\net8.0\ref\Method_execution.dll

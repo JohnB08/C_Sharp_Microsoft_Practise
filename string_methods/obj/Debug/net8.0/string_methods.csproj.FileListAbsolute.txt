@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\bin\Debug\net8.0\string_methods.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\bin\Debug\net8.0\string_methods.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\bin\Debug\net8.0\string_methods.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\bin\Debug\net8.0\string_methods.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\bin\Debug\net8.0\string_methods.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\refint\string_methods.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\string_methods.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\string_methods\obj\Debug\net8.0\ref\string_methods.dll

@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\bin\Debug\net8.0\Methods_exercise.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\bin\Debug\net8.0\Methods_exercise.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\bin\Debug\net8.0\Methods_exercise.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\bin\Debug\net8.0\Methods_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\bin\Debug\net8.0\Methods_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\refint\Methods_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\Methods_exercise.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Methods_exercise\obj\Debug\net8.0\ref\Methods_exercise.dll
