@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\bin\Debug\net8.0\Zoo_Method_exercise.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\bin\Debug\net8.0\Zoo_Method_exercise.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\bin\Debug\net8.0\Zoo_Method_exercise.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\bin\Debug\net8.0\Zoo_Method_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\bin\Debug\net8.0\Zoo_Method_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\refint\Zoo_Method_exercise.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\Zoo_Method_exercise.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Zoo_Method_exercise\obj\Debug\net8.0\ref\Zoo_Method_exercise.dll

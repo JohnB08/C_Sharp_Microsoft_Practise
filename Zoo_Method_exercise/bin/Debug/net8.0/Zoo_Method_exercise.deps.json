@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Zoo_Method_exercise/1.0.0": {
+        "runtime": {
+          "Zoo_Method_exercise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zoo_Method_exercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
