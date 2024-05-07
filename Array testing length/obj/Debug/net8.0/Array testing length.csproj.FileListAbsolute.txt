@@ -1,0 +1,15 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\bin\Debug\net8.0\Array testing length.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\bin\Debug\net8.0\Array testing length.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\bin\Debug\net8.0\Array testing length.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\bin\Debug\net8.0\Array testing length.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\bin\Debug\net8.0\Array testing length.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\refint\Array testing length.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\Array testing length.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Array testing length\obj\Debug\net8.0\ref\Array testing length.dll
