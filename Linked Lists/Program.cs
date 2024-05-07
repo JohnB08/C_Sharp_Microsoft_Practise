@@ -5,9 +5,22 @@ Random rand = new();
 myList.AddFirst(1);
 myList.AddFirst(2);
 myList.AddLast(3);
+myList.RemoveData(3);
+myList.RemoveHead();
+myList.AddFirst(4);
+myList.AddLast(6);
+
+try
+{
+    myList.RemoveAtIndex(1);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
 
 
-for (int i = 0; i <= 10; i++)
+for (int i = 0; i <= 12; i++)
 {
     myList.AddFirst(i + rand.Next(1, 10));
 }
@@ -25,12 +38,13 @@ myList.PrintAllNodes();
 
 try
 {
-    Console.WriteLine(myList.GetElementAtIndex(15));
+    Console.WriteLine(myList.GetElementAtIndex(12));
 }
 catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
+Console.WriteLine(myList.GetLength());
 
 
 
@@ -143,19 +157,23 @@ public class LinkedList
             current = current.Next;
         }
     }
+
+
     /// <summary>
     /// Her prøver vi å slette et element fra listen vår. <br/>
+    /// Vi kan "slette" en node ved å fjerne alle referanser til noden. <br/>
+    /// Da blir noden en kanditat for garbage-collection. <br/>
     /// Når vi sletter elementet er det mer rett å si at vi fjerner referansene til elementet fra listen vår. <br/>
     /// Vi gjør dette ved å se lage både en current og en previous node referanse i starten <br/>
     /// Vi trenger både current og previous for å endre på referansene, dvs pointers, slik at elementet blir fjernet. <br/>
     /// Vi vandrer gjennom listen så lenge current ikke er null. Hvis vi finner et element hvor dataen er lik det vi vil fjerne <br/>
     /// tar vi å endrer referansene i listen vår. b.la setter vi previous.Next til current.Next. slik at linken fremdeles er hel. <br/>
-    /// Viss vi når enden og ingenting er endret returnerer vi false, i.e. slettingen funkerte ikke.
+    /// Viss vi når enden og ingenting er endret returnerer vi false, i.e. slettingen funkerte ikke. 
     ///
     /// </summary>
     /// <param name="data"></param>
     /// <returns></returns>
-    public bool Remove(int data)
+    public bool RemoveData(int data)
     {
         Node current = head;
         Node previous = null;
@@ -177,6 +195,49 @@ public class LinkedList
             current = current.Next;
         }
         return false;
+    }
+
+    /// <summary>
+    /// Her fjerner vi, dvs un-linker head fra chainen av elementer.
+    /// </summary>
+    public void RemoveHead()
+    {
+        if (head != null)
+        {
+            head = head.Next;
+        }
+    }
+    /// <summary>
+    /// Her fjerner vi data basert på en Index. <br/>
+    /// Vi vandrer i listen til vi treffer punktet vi vil fjerne, og "un-linker" det fra de andre referansepunktene i listen. <br/>
+    /// </summary>
+    /// <param name="Index"></param>
+    /// <exception cref="IndexOutOfRangeException"></exception>
+    public void RemoveAtIndex(int Index)
+    {
+        if (head == null || Index < 0)
+        {
+            throw new IndexOutOfRangeException("Index is out of bounds");
+        }
+        Node current = head;
+        Node previous = null;
+        for (int i = 0; i < Index; i++)
+        {
+            if (current.Next == null)
+            {
+                throw new IndexOutOfRangeException("Index is out of bounds");
+            }
+            previous = current;
+            current = current.Next;
+        }
+        if (previous == null)
+        {
+            head = head.Next;
+        }
+        else
+        {
+            previous.Next = current.Next;
+        }
     }
 
     /// <summary>
@@ -204,5 +265,123 @@ public class LinkedList
             current = current.Next;
         }
         throw new IndexOutOfRangeException("Index is out of range");
+    }
+    /// <summary>
+    /// Vi kan finne lengden på listen ved å vandre gjennom listen og incremente en counter.
+    /// </summary>
+    /// <returns></returns>
+    public int GetLength()
+    {
+        if (head == null) return 0;
+        Node current = head;
+        int count = 1;
+        while (current != null)
+        {
+            count++;
+            current = current.Next;
+        }
+        return count;
+    }
+}
+
+
+/* En doubly linked list har pointers i begge retninger.
+Visuelt vil det se noe sånt som dette ut: NODE[ PREV ][ DATA ][ NEXT ]
+Hvert element har i minnet pointers til elementer i begge retninger. Både frem og bakover i listen. */
+
+public class DoublyLinkedNode
+{
+    public int Data { get; set; }
+    public DoublyLinkedNode Next { get; set; }
+    public DoublyLinkedNode Prev { get; set; }
+    public DoublyLinkedNode(int Data)
+    {
+        this.Data = Data;
+        this.Next = null;
+        this.Prev = null;
+    }
+}
+
+public class DoublyLinkedList
+{
+    private DoublyLinkedNode head;
+    private DoublyLinkedNode tail;
+
+    /// <summary>
+    /// Her legger vi inn data som det første elementet i listen vår.<br/>
+    /// Hvis det ikke er det første elementet i listen, er det viktig at vi oppdaterer .Next til det som var head <br/>
+    /// og .Prev i head til det nye elementet. Da har vi oppfylt pointer kravene til en doubly linked list. <br/>
+    /// </summary>
+    /// <param name="data"></param>
+    public void AddFirst(int data)
+    {
+        DoublyLinkedNode newNode = new(data);
+        newNode.Next = head;
+        if (head != null) head.Prev = newNode;
+        head = newNode;
+        tail ??= head;
+    }
+    /// <summary>
+    /// Her legger vi inn data som "tail" i listen, aka siste element. <br/>
+    /// Vi passer på at tail.Next refererer til newNode, og at newNode.Prev refererer til tail.<br/>
+    /// Vi setter så tail til newNode, og har så oppfulgt kravene til en doubly linked list.
+    /// </summary>
+    /// <param name="data"></param>
+    public void AddLast(int data)
+    {
+        if (head == null)
+        {
+            AddFirst(data);
+            return;
+        }
+        DoublyLinkedNode newNode = new(data);
+        tail.Next = newNode;
+        newNode.Prev = tail;
+        tail = newNode;
+    }
+    /// <summary>
+    /// Her fjerner vi Head fra listen vår ved å fjerne alle referanser til elementet. <br/>
+    /// Dette åpner head for garbage collection siden ingenting refererer til det lengre.
+    /// </summary>
+    public void RemoveHead()
+    {
+        if (head == null) return;
+        if (head.Next == null)
+        {
+            head = null;
+            tail = null;
+        }
+        else
+        {
+            head = head.Next;
+            head.Prev = null;
+        }
+    }
+    /// <summary>
+    /// Her fjerner vi Tail fra listen vår ved å fjerne alle referanser til elementet.<br/>
+    /// Dette åpner tail opp for garbage collection siden ingenting refererer til tail lengre.
+    /// </summary>
+    public void RemoveTail()
+    {
+        if (tail == null) return;
+        if (tail.Prev == null)
+        {
+            head = null;
+            tail = null;
+        }
+        else
+        {
+            tail = tail.Prev;
+            tail.Next = null;
+        }
+    }
+    public void PrintAllNodes()
+    {
+        DoublyLinkedNode current = head;
+        while (current != null)
+        {
+            Console.WriteLine(current.Data);
+            current = current.Next;
+        }
     }
 }
