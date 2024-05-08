@@ -1,50 +1,46 @@
-﻿
-LinkedList myList = new();
+﻿DoublyLinkedList myList = new();
 Random rand = new();
-
-myList.AddFirst(1);
-myList.AddFirst(2);
-myList.AddLast(3);
-myList.RemoveData(3);
-myList.RemoveHead();
-myList.AddFirst(4);
-myList.AddLast(6);
-
-try
-{
-    myList.RemoveAtIndex(1);
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
-
-
-for (int i = 0; i <= 12; i++)
+for (int i = 0; i < 40; i++)
 {
     myList.AddFirst(i + rand.Next(1, 10));
 }
-
-try
-{
-    myList.AddAtIndex(10, 2);
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
-
 myList.PrintAllNodes();
-
 try
 {
-    Console.WriteLine(myList.GetElementAtIndex(12));
+    myList.AddAtIndex(10, 3);
 }
 catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
-Console.WriteLine(myList.GetLength());
+myList.PrintAllNodes();
+try
+{
+    myList.RemoveAtIndex(4);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+myList.PrintAllNodes();
+try
+{
+    myList.ReverseList();
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+myList.PrintAllNodes();
+try
+{
+    myList.Sort();
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+myList.PrintAllNodes();
 
 
 
@@ -71,6 +67,7 @@ public class Node
 public class LinkedList
 {
     private Node head;
+    public int Length;
 
     /// <summary>
     /// I AddFirst setter vi et nytt datapoint som først i listen. 
@@ -86,6 +83,7 @@ public class LinkedList
         Node newNode = new Node(data);
         newNode.Next = head;
         head = newNode;
+        Length++;
     }
     /// <summary>
     /// Denne methoden vandrer gjennom listen, til den kommer til slutt, før den inserter vår newNode til enden av listen, og oppdaterer listen der etter.<br/>
@@ -115,6 +113,7 @@ public class LinkedList
             current = current.Next;
         }
         current.Next = newNode;
+        Length++;
     }
 
     /// <summary>
@@ -143,6 +142,7 @@ public class LinkedList
         }
         newNode.Next = current.Next;
         current.Next = newNode;
+        Length++;
     }
 
     /// <summary>
@@ -189,6 +189,7 @@ public class LinkedList
                 {
                     previous.Next = current.Next;
                 }
+                Length--;
                 return true;
             }
             previous = current;
@@ -205,6 +206,7 @@ public class LinkedList
         if (head != null)
         {
             head = head.Next;
+            Length--;
         }
     }
     /// <summary>
@@ -238,6 +240,7 @@ public class LinkedList
         {
             previous.Next = current.Next;
         }
+        Length--;
     }
 
     /// <summary>
@@ -266,28 +269,14 @@ public class LinkedList
         }
         throw new IndexOutOfRangeException("Index is out of range");
     }
-    /// <summary>
-    /// Vi kan finne lengden på listen ved å vandre gjennom listen og incremente en counter.
-    /// </summary>
-    /// <returns></returns>
-    public int GetLength()
-    {
-        if (head == null) return 0;
-        Node current = head;
-        int count = 1;
-        while (current != null)
-        {
-            count++;
-            current = current.Next;
-        }
-        return count;
-    }
 }
 
 
 /* En doubly linked list har pointers i begge retninger.
 Visuelt vil det se noe sånt som dette ut: NODE[ PREV ][ DATA ][ NEXT ]
-Hvert element har i minnet pointers til elementer i begge retninger. Både frem og bakover i listen. */
+Hvert element har i minnet pointers til elementer i begge retninger. Både frem og bakover i listen. 
+Dette gir doubly linked lists en fordel over singly linked lists siden søking etter elementer etter index kan gjøres mye raskere, <br/>
+siden du kan bruke index som et pivot point i hvor du skal lete etter det du trenger.*/
 
 public class DoublyLinkedNode
 {
@@ -307,6 +296,8 @@ public class DoublyLinkedList
     private DoublyLinkedNode head;
     private DoublyLinkedNode tail;
 
+    public int Length = 0;
+
     /// <summary>
     /// Her legger vi inn data som det første elementet i listen vår.<br/>
     /// Hvis det ikke er det første elementet i listen, er det viktig at vi oppdaterer .Next til det som var head <br/>
@@ -320,6 +311,7 @@ public class DoublyLinkedList
         if (head != null) head.Prev = newNode;
         head = newNode;
         tail ??= head;
+        Length++;
     }
     /// <summary>
     /// Her legger vi inn data som "tail" i listen, aka siste element. <br/>
@@ -338,6 +330,110 @@ public class DoublyLinkedList
         tail.Next = newNode;
         newNode.Prev = tail;
         tail = newNode;
+        Length++;
+    }
+    /// <summary>
+    /// Her legger vi inn en ny node etter en spesifik node. <br/>
+    /// Vi definerer en newNode, og setter .Next til node.Next<br/>
+    /// og .Prev til noden vi skal settes inn etter. <br/>
+    /// Hvis node.Next != null aka node.Next ikke er tail, så setter vi node.Next.Prev aka det som var .Next pointeren til node sin .Prev pointer til newNode. <br/>
+    /// til slutt skjekker vi om tail var node, og har da oppdatert alle referanser rundt node og den nye noden vi skal sette inn. <br/>
+    /// </summary>
+    /// <param name="node">Noden som ny data skal settes inn etter.</param>
+    /// <param name="data"></param>
+    public void AddAfter(DoublyLinkedNode node, int data)
+    {
+        if (node == null) return;
+        DoublyLinkedNode newNode = new(data);
+        newNode.Next = node.Next;
+        newNode.Prev = node;
+        if (node.Next != null)
+        {
+            node.Next.Prev = newNode;
+        }
+        node.Next = newNode;
+        if (node == tail)
+        {
+            tail = newNode;
+        }
+        Length++;
+    }
+
+    /// <summary>
+    /// Her prøver vi å sette inn en ny node før en annen node.<br/>
+    /// Vi bruker noden i parameteret for å oppdatere alle referansene for å peke korrekt til det nye elementet som settes inn i .Prev<br/>
+    /// Vi skjekker også om noden vi setter noe inn i var head, og oppdaterer head deretter. <br/>
+    /// 
+    /// </summary>
+    /// <param name="node"></param>
+    /// <param name="data"></param>
+    public void AddBefore(DoublyLinkedNode node, int data)
+    {
+        if (node == null) return;
+        DoublyLinkedNode newNode = new(data);
+        newNode.Next = node;
+        newNode.Prev = node.Prev;
+        if (node.Prev != null)
+        {
+            node.Prev.Next = newNode;
+        }
+        node.Prev = newNode;
+        if (node == head)
+        {
+            head = newNode;
+        }
+        Length++;
+    }
+    /// <summary>
+    /// Her prøver vi å sette inn data på en spesifik index i listen.<br/>
+    /// Siden vi tracker både head og tail kan vi velge hvilken som er best å starte ved med en enkel bool <br/>
+    /// Vi kan da loope gjennom listen fra start til midtpunkt og adde elementet på lokasjon med AddAfter,<br/>
+    /// Eller gå baklengs gjennom listen og legge inn før.
+    /// </summary>
+    /// <param name="Index"></param>
+    /// <param name="data"></param>
+    /// <exception cref="IndexOutOfRangeException"></exception>
+    public void AddAtIndex(int Index, int data)
+    {
+        if (Index < 0) throw new IndexOutOfRangeException("Index cannot be negative");
+        if (Index == 0)
+        {
+            AddFirst(data);
+            return;
+        }
+        DoublyLinkedNode current = head;
+        int currentIndex = 0;
+        bool startFromHead = Index <= Length / 2;
+        if (!startFromHead)
+        {
+            current = tail;
+            currentIndex = Length - 1;
+        }
+        while (current != null)
+        {
+            if ((startFromHead && currentIndex == Index) || (!startFromHead && currentIndex == Index))
+            {
+                if (startFromHead)
+                {
+                    AddBefore(current, data);
+                }
+                else
+                {
+                    AddBefore(current, data);
+                }
+                return;
+            }
+            if (startFromHead)
+            {
+                current = current.Next;
+                currentIndex++;
+            }
+            else
+            {
+                current = current.Prev;
+                currentIndex--;
+            }
+        }
     }
     /// <summary>
     /// Her fjerner vi Head fra listen vår ved å fjerne alle referanser til elementet. <br/>
@@ -356,6 +452,7 @@ public class DoublyLinkedList
             head = head.Next;
             head.Prev = null;
         }
+        Length--;
     }
     /// <summary>
     /// Her fjerner vi Tail fra listen vår ved å fjerne alle referanser til elementet.<br/>
@@ -374,14 +471,241 @@ public class DoublyLinkedList
             tail = tail.Prev;
             tail.Next = null;
         }
+        Length--;
+    }
+    /// <summary>
+    /// Her prøver vi å fjerne data basert på en verdi. Vi vandrer gjennom hele listen og sammenligner data med parameteret. <br/>
+    /// </summary>
+    /// <param name="data"></param>
+    public void RemoveData(int data)
+    {
+        DoublyLinkedNode current = head;
+        while (current != null)
+        {
+            if (current.Data == data)
+            {
+                if (current.Prev == null)
+                {
+                    RemoveHead();
+                }
+                else if (current.Next == null)
+                {
+                    RemoveTail();
+                }
+                else
+                {
+                    current.Prev.Next = current.Next;
+                    current.Next.Prev = current.Prev;
+                    Length--;
+                }
+                return;
+            }
+            current = current.Next;
+        }
+    }
+    /// <summary>
+    /// Her vandrer vi gjennom listen og unlinker når vi treffer index.<br/>
+    /// Siden dette er en doubly linked list som har referanser begge veier, kan vi bruke Index som et pivot point som velger hvor vi skal starte å lete<br/>
+    /// </summary>
+    /// <param name="Index"></param>
+    /// <exception cref="IndexOutOfRangeException"></exception>
+    public void RemoveAtIndex(int Index)
+    {
+        if (Index < 0 || Index >= Length) throw new IndexOutOfRangeException("Index is out of range");
+        if (Index == 0)
+        {
+            RemoveHead();
+            return;
+        };
+        if (Index == Length - 1)
+        {
+            RemoveTail();
+            return;
+        };
+        DoublyLinkedNode current = null;
+        int currentIndex = 0;
+        bool startFromHead = Index <= Length / 2;
+        if (startFromHead)
+        {
+            current = head;
+            while (currentIndex < Index)
+            {
+                current = current.Next;
+                currentIndex++;
+            }
+        }
+        else
+        {
+            current = tail;
+            currentIndex = Length - 1;
+            while (currentIndex > Index)
+            {
+                current = current.Prev;
+                currentIndex--;
+            }
+        }
+        if (current.Prev != null)
+        {
+            current.Prev.Next = current.Next;
+        }
+        if (current.Next != null)
+        {
+            current.Next.Prev = current.Prev;
+        }
+        Length--;
+    }
+
+    /// <summary>
+    /// Her vandrer vi gjennom listen, og bruker temp som en plaseholder node slik at vi kan reversere prev og next for alle nodes.<br/>
+    /// Da har vi reversert listen vår. 
+    /// </summary>
+    public void ReverseList()
+    {
+        DoublyLinkedNode temp = null;
+        DoublyLinkedNode current = head;
+        while (current != null)
+        {
+            temp = current.Prev;
+            current.Prev = current.Next;
+            current.Next = temp;
+            current = current.Prev;
+        }
+        if (temp != null)
+        {
+            head = temp.Prev;
+        }
+    }
+    /// <summary>
+    /// Denne funksjonen splitter listen i to på midten. Og returnerer noden hvor splitten skjedde.<br/>
+    /// Den gjør dette ved å ha to nodes. En som looper gjennom listen to steg om gangen, og en som looper gjennom et steg om gangen.<br/>
+    /// Når "fast" har truffet slutten på listen, returnerer vi "slow". Dermed har vi funnet noden i midten av listen. 
+    /// </summary>
+    /// <param name="head"></param>
+    /// <returns></returns>
+    private DoublyLinkedNode Split(DoublyLinkedNode head)
+    {
+        DoublyLinkedNode slow = head, fast = head, prev = null;
+        while (fast != null && fast.Next != null)
+        {
+            prev = slow;
+            slow = slow.Next;
+            fast = fast.Next.Next;
+        }
+        if (prev != null) prev.Next = null;
+        return slow;
+    }
+
+    /// <summary>
+    /// Denne funksjonen tar inn to nodes, og sammenligner dataverdien mellom de. <br/>
+    /// Hvis den ene er større enn den andre, flytter den noden bak eller frem, og caller rekrusivt Merge() på neste par nodes.<br/>
+    /// </summary>
+    /// <param name="first"></param>
+    /// <param name="second"></param>
+    /// <returns></returns>
+    private DoublyLinkedNode Merge(DoublyLinkedNode first, DoublyLinkedNode second)
+    {
+        if (first == null) return second;
+        if (second == null) return first;
+        if (first.Data < second.Data)
+        {
+            first.Next = Merge(first.Next, second);
+            first.Next.Prev = first;
+            first.Prev = null;
+            return first;
+        }
+        else
+        {
+            second.Next = Merge(first, second.Next);
+            second.Next.Prev = second;
+            second.Prev = null;
+            return second;
+        }
+    }
+    /// <summary>
+    /// Her lager vi en rekrusiv funksjon som først splitter listen vår i to rundt senter fra "noden" vi starter med.<br/>
+    /// Før vi sorterer hver halvdel av listen ved å called MergeSort recrusivt fra splitpunktene. Etter vi har merget nedover called vi Merge funksjonen til slutt for å sammenligne hvert punkt i listen.
+    /// </summary>
+    /// <param name="node"></param>
+    /// <returns></returns>
+    public DoublyLinkedNode MergeSort(DoublyLinkedNode node)
+    {
+        if (node == null || node.Next == null) return node;
+        DoublyLinkedNode second = Split(node);
+        node = MergeSort(node);
+        second = MergeSort(second);
+        return Merge(node, second);
+    }
+    /// <summary>
+    /// Alternativ Merge sort siden vi kjenner lengden på listen via Length operator.<br/>
+    /// Her bruker vi Length for å limite antal iterations av den rekrusive MergeSort algoritmen.<br/>
+    /// Dette kan hjelpe hvor du ikke har mye stack dybde.
+    /// </summary>
+    /// <param name="node"></param>
+    /// <param name="length"></param>
+    /// <returns></returns>
+    public DoublyLinkedNode MergeSortUsingLength(DoublyLinkedNode node, int length)
+    {
+        if (length <= 1)
+        {
+            return node;
+        }
+        DoublyLinkedNode middle = Split(node);
+        DoublyLinkedNode secondHalf = middle.Next;
+        middle.Next = null;
+
+        DoublyLinkedNode left = MergeSortUsingLength(node, length / 2);
+        DoublyLinkedNode right = MergeSortUsingLength(secondHalf, length - length / 2);
+        return Merge(left, right);
+    }
+    /// <summary>
+    /// Her starter vi MergeSorten med startpunktet i listen vår, head. <br/>
+    /// Til slutt passer vi på at tail fremdeles refererer til siste element i listen.<br/>
+    /// Grunnen til at Mergesort er en bedre sort algorithm enn quicksort for Linked Lists er pga Quicksort er avhengig av direkte access til elementene for å skape pivot points.<br/>
+    /// Noe som arrays håndterer bedre via direkte Indexing. Linked lists er ikke avhengig av at elementene er indexed i memory i samme område, så dermed er det vanskeligere å få random access til et element. <br/>
+    /// Merge sort er ikke avhengig av dette på samme måte, så vi kan vandre gjennom og splitte listen vår nedover.
+    /// </summary>
+    public void Sort()
+    {
+        head = MergeSort(head);
+        tail = head;
+        while (tail != null && tail.Next != null)
+        {
+            tail = tail.Next;
+        }
+    }
+    /// <summary>
+    /// Her går vi gjennom listen fra begge ender for å finne noden som har dataen vi trenger. <br/>
+    /// Vi returnerer noden hvis vi finner den.
+    /// </summary>
+    /// <param name="data"></param>
+    /// <returns></returns>
+    public DoublyLinkedNode Search(int data)
+    {
+        DoublyLinkedNode forward = head;
+        DoublyLinkedNode backward = tail;
+        while (forward != null && backward != null && forward != backward && forward.Prev != backward)
+        {
+            if (forward.Data == data)
+            {
+                return forward;
+            }
+            if (backward.Data == data)
+            {
+                return backward;
+            }
+            forward = forward.Next;
+            backward = backward.Prev;
+        }
+        return null;
     }
     public void PrintAllNodes()
     {
         DoublyLinkedNode current = head;
         while (current != null)
         {
-            Console.WriteLine(current.Data);
+            Console.Write(current.Data + " ");
             current = current.Next;
         }
+        Console.WriteLine();
     }
 }
