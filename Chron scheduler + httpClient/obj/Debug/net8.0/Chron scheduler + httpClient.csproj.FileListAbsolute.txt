@@ -1,0 +1,18 @@
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Chron scheduler + httpClient.exe
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Chron scheduler + httpClient.deps.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Chron scheduler + httpClient.runtimeconfig.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Chron scheduler + httpClient.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Chron scheduler + httpClient.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\bin\Debug\net8.0\Cronos.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.csproj.AssemblyReference.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.AssemblyInfoInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.AssemblyInfo.cs
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.csproj.CoreCompileInputs.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.sourcelink.json
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.csproj.CopyComplete
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\refint\Chron scheduler + httpClient.dll
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.pdb
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\Chron scheduler + httpClient.genruntimeconfig.cache
+C:\Users\John Ellingsen\Documents\C_Sharp\Chron scheduler + httpClient\obj\Debug\net8.0\ref\Chron scheduler + httpClient.dll

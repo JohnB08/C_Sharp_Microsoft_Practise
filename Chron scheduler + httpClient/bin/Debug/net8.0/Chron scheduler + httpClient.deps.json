@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Chron scheduler + httpClient/1.0.0": {
+        "dependencies": {
+          "Cronos": "0.8.4"
+        },
+        "runtime": {
+          "Chron scheduler + httpClient.dll": {}
+        }
+      },
+      "Cronos/0.8.4": {
+        "runtime": {
+          "lib/netstandard2.0/Cronos.dll": {
+            "assemblyVersion": "0.8.4.0",
+            "fileVersion": "0.8.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chron scheduler + httpClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cronos/0.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sTyvTH8hh5YWivinRGzL5QrfKKt59I/Hh+4m8j6vmtJdSOWA4I3B+AS9iJk3RdQqZ+i4E+0PlhYuY9iaxDLTcQ==",
+      "path": "cronos/0.8.4",
+      "hashPath": "cronos.0.8.4.nupkg.sha512"
+    }
+  }
+}

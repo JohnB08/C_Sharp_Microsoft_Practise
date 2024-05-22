@@ -1,0 +1,7 @@
+{
+  "userArray": [
+    { "name": "John", "id": 1 },
+    { "name": "Fred", "id": 2 },
+    { "name": "Erling", "id": 3 }
+  ]
+}
