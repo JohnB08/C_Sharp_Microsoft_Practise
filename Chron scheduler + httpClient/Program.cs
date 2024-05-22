@@ -21,6 +21,7 @@ class Program
     /// Det blir tolket av _cronExpression.GetNextOccurence som "Kjør igjen om ett minutt fra nå." </br>
     /// Vi kunne kjørt funksjonen vår hver time ved å skifte cronExpression til: * */1 * * * </br>
     /// Eller hver måned hved å skifte til: * * * * /1 * </br>
+    /// Eller hver mandag klokken åtte om morningen: 0 0 8 * * 1</br>
     /// </summary>
     /// <param name="args"></param>
     /// <returns></returns>
